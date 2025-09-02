@@ -1,6 +1,7 @@
 const fs = require("fs/promises");
 const http = require("http");
 
+// Server config
 const PORT = 8080;
 const HOST = "localhost";
 
