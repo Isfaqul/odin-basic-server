@@ -5,7 +5,7 @@ const PORT = 8080;
 const HOST = "localhost";
 
 const server = http.createServer((req, res) => {
-  let path = "./pages/";
+  let path = "./";
 
   if (req.url === "/") {
     res.statusCode = 200;
